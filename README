@@ -10,12 +10,23 @@ Kenji Nishishiro <marvel@programmershigh.org>
 http://www.winimage.com/zLibDll/minizip.html
 
 2. Add files to Xcode project from Minizip
-crypt.h ioapi.c ioapi.h mztools.c mztools.h unzip.c unzip.h zip.c zip.h
+unzip11/crypt.h
+unzip11/ioapi.c
+unzip11/ioapi.h
+unzip11/mztools.c
+unzip11/mztools.h
+unzip11/unzip.c
+unzip11/unzip.h
+unzip11/zip.c
+unzip11/zip.h
 
 3. Add external library to Xcode project
 libz.dylib
 
-2. Add files to Xcode project from ZipFile
+4. Add preprocessor macro to Xcode project
+USE_FILE32API
+
+5. Add files to Xcode project from ZipFile
 ZipFile.h ZipFile.m
 
 
